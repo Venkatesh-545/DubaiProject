@@ -1,0 +1,13 @@
+.border{
+    width: 100px;
+    height: 3px;
+    background: #af202c;
+    margin: 40px auto;
+  }
+  .border2{
+    width: 150px;
+    height: 3px;
+    background: #041977;
+    margin: 20px auto;
+    margin-bottom: 30px;
+  }

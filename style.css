@@ -75,13 +75,15 @@ a.active,a:hover{
 @media (max-width: 858px){
   .checkbtn{
     display: block;
+    top:0px;
   }
   nav ul{
-    position: fixed;
+    position: relative;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background: #2c3e50;
-    top: 80px;
+    /* top: 80px; */
+    z-index: 9;
     left: -100%;
     text-align: center;
     transition: all .5s;
@@ -103,3 +105,30 @@ a.active,a:hover{
   }
 }
 
+
+.details {
+  margin: 30px;
+  background: rgba(0,0,0,0.67);
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom:50px ;
+  opacity: 0.6;
+}
+
+.details h1, span{
+  margin: 5%;
+  font-weight: bold;
+  color:white;
+}
+
+@media screen and (max-width:700px) {
+  .details{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .details h1, span{
+  
+    font-size:12px;
+  }
+  }

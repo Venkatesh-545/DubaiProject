@@ -1,69 +1,72 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-    padding: 10px;
-  }
-  
-  /* Create two acontacts that float next to eachother */
-  .acontact {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the acontacts */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two acontacts stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .acontact, input[type=submit] {
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style inputs */
+    input[type=text], select, textarea {
       width: 100%;
-      margin-top: 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
     }
-  }
-  .submit{
-    background: linear-gradient(to top left,#ff8a00,#e52e71);
-    border-radius: 5px;
-  }
-  
-  @media screen and (max-width:760px){
-    .acontact iframe{
-        width:auto;
+    
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
     }
-  }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    /* Style the container/contact section */
+    .container {
+      border-radius: 5px;
+      background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+      padding: 10px;
+    }
+    
+    /* Create two acontacts that float next to eachother */
+    .acontact {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+    
+    /* Clear floats after the acontacts */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two acontacts stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .acontact, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    .submit{
+      background: linear-gradient(to top left,#ff8a00,#e52e71);
+      border-radius: 5px;
+    }
+    
+    @media screen and (max-width:760px){
+      .acontact iframe{
+          width:100%;
+          margin-top: auto;
+          margin-right:auto;
+      }
+    }
+

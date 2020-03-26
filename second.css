@@ -1,0 +1,71 @@
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+
+  }
+  
+
+  .row2{
+    /* box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+     display:flex; */
+      /* height:px;
+      background-image: url(); */
+   
+}
+  /* Create two newscrs that float next to eachother */
+  .newscr, .newscr2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    height:600px;
+    /* background-color:orange; */
+  }
+
+  .newscr2{
+     /* background:yellowgreen; */
+      height:600px; 
+  }
+  .newscr2 p{
+     height:500px;
+     overflow-y: auto;
+ }
+
+  @media screen and (max-width: 600px) {
+    .newscr {
+      width: 100%;
+      margin-top: 0;
+    }
+    .newscr p{
+        height:400px;
+        overflow-y: auto;
+        padding:3px;
+    }
+  }
+  
+  @media screen and (max-width:760px){
+    .newscr img{
+        width:auto;
+        height:100%;
+    }
+    .newscr p{
+        height:350px;
+        overflow-y: auto;
+        padding:3px;
+    }
+
+    .newscr, .newscr2 {
+    
+      width: 100%;
+      margin-top: 6px;
+      padding: 20px;
+     
+      /* background-color:orange; */
+    }
+  }

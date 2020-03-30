@@ -8,7 +8,7 @@
     
     /* Style inputs */
     input[type=text], select, textarea {
-      width: 100%;
+      width: 80%;
       padding: 12px;
       border: 1px solid #ccc;
       margin-top: 6px;
@@ -31,14 +31,16 @@
     /* Style the container/contact section */
     .container {
       border-radius: 5px;
-      background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-      padding: 10px;
+      /* background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%); */
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+      padding-top:50px;
+      padding-bottom:30px;
     }
     
     /* Create two acontacts that float next to eachother */
     .acontact {
       float: left;
-      width: 50%;
+      width: calc(100% / 3);
       margin-top: 6px;
       padding: 20px;
     }
@@ -55,6 +57,16 @@
       .acontact, input[type=submit] {
         width: 100%;
         margin-top: 0;
+      
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
       }
     }
     .submit{

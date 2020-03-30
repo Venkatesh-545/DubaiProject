@@ -11,31 +11,58 @@ body {
   }
   
 
-  .row2{
+  .row4 {
     /* box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
      display:flex; */
-      /* height:px;
-      background-image: url(); */
+      /* height:600px; */
+      /* background-image: url(); */
+      background-color:rgb(207, 205, 201);
+      width:98%;
+      margin-left: auto;
+      margin-right:auto;
    
 }
   /* Create two newscrs that float next to eachother */
   .newscr, .newscr2 {
     float: left;
     width: 50%;
-    margin-top: 6px;
+    /* margin-top: 6px; */
     padding: 20px;
     height:600px;
-    /* background-color:orange; */
+    font-family:roboto,sans-serif;          
+    font-size: 15px;
+    
   }
 
+  .newscr img{
+    width:auto;
+    height:200px;
+    height:80%; width:95%;
+    vertical-align: middle;
+    margin-top:35px;
+    border-radius: 10px;
+}  
+ 
   .newscr2{
      /* background:yellowgreen; */
       height:600px; 
+      margin-top: 20px;
   }
   .newscr2 p{
      height:500px;
      overflow-y: auto;
+     line-height: 1.8;
  }
+ .newscr2 h2{
+  
+  font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom:30
+}
+
 
   @media screen and (max-width: 600px) {
     .newscr {
@@ -50,9 +77,12 @@ body {
   }
   
   @media screen and (max-width:760px){
+    /* .row4{
+      height:1200px;
+    } */
     .newscr img{
-        width:auto;
-        height:100%;
+        width:100%;
+        height:90%;
     }
     .newscr p{
         height:350px;

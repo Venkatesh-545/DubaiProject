@@ -42,7 +42,7 @@ nav ul li{
 }
 nav ul li a{
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -50,6 +50,7 @@ nav ul li a{
 a.active,a:hover{
   background: #1b9bff;
   transition: .5s;
+  font-size: 18px;
 }
 .checkbtn{
   font-size: 30px;

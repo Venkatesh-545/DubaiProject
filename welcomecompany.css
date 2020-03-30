@@ -1,0 +1,104 @@
+.welcome{
+           
+    width:70%;
+    /* background-color: palevioletred; */
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+.innerwelcome{
+    /* width:70%; */
+    margin:0 auto;
+    
+   
+
+}
+.innerwelcome h1{
+    color: #234567;
+    text-align:center;
+}
+.innerwelcome h3, h4{
+    margin-top:15px;
+   
+    text-align:center;
+}
+
+.innerwelcome h4{
+   
+    margin-bottom:15px;
+   /* text-align:justify;
+   font:sans-serif; */
+}
+
+.outerwelcome{
+   width:100%;
+}
+.welcomelogo{
+  width:35%;
+  /* background-color:aqua; */
+  float:left;
+  height:350px;
+}
+
+.welcometext{
+   width:65%;
+   /* float:right; */
+text-align:justify;
+   font:sans-serif;
+   height:350px;
+   display:flex;
+   /* background-color:beige; */
+}
+
+.welcometext p{
+   width:95%;
+   margin-left:auto;
+   margin-right:auto;
+   line-height: 1.6;
+
+}
+
+.welcomelogo img{
+height:90%; 
+width:90%;
+/* border-radius: 100%; */
+margin-top:2%;
+margin-bottom:8%;
+margin-left:5%;
+margin-right:5%;
+}
+
+.border4{
+   border:1px solid blue;
+   width:10%;
+   margin:auto;
+}
+
+@media screen and (max-width: 500px) {
+
+    .welcome{
+        width:100%;
+    }
+    .innerwelcome{
+        /* width: 100%; */
+    }
+    .innerwelcome h1{
+        /* font-size:24px; */
+        width:100%;
+    }
+
+  
+    .welcometext, .welcomelogo{
+        width:100%;
+        display:flex;
+        /* background-color: yellowgreen; */
+        height:auto;
+    }
+    .welcomelogo{
+        width:100%;
+        padding:1opx;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
